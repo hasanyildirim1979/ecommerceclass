@@ -11,13 +11,14 @@ import {getFirestore} from "firebase/firestore"
 //storage erişimi için (resim kayıt yeri)
 import {getStorage} from "firebase/storage"
 
-const firebaseConfig = {
-  apiKey: "AIzaSyAl_M41bc7XdBv5RR23Xv_7ZmsIaXe0UOk",
-  authDomain: "ecommerceclass-5263c.firebaseapp.com",
-  projectId: "ecommerceclass-5263c",
-  storageBucket: "ecommerceclass-5263c.appspot.com",
-  messagingSenderId: "152180711417",
-  appId: "1:152180711417:web:e959ee57ecff45d583e728"
+
+export const firebaseConfig = {
+  apiKey: process.env.REACT_APP_FB_API_KEY,
+  authDomain: "ecommerceclass-6f4f1.firebaseapp.com",
+  projectId: "ecommerceclass-6f4f1",
+  storageBucket: "ecommerceclass-6f4f1.appspot.com",
+  messagingSenderId: "666645205980",
+  appId: "1:666645205980:web:ac60df49ca5c4087397519"
 };
 
 const app = initializeApp(firebaseConfig);
