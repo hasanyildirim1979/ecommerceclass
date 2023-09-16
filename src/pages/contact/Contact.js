@@ -55,11 +55,11 @@ const Contact = () => {
                 </span>
                 <span>
                   <GoLocation/>
-                  <p>Izmir,Turkey</p>
+                  <p>Ankara,Turkey</p>
                 </span>
                 <span>
                   <FaTwitter/>
-                  <p>@mustafaselman</p>
+                  <p>@hasan1979.2023</p>
                 </span>
               </div>
             </Card>
